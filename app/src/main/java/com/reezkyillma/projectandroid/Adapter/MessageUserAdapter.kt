@@ -148,7 +148,13 @@ class MessageUserAdapter(private val mContext: Context, private val mUsers: List
 
                     "default" -> last_msg.text = "No Message"
 
-                    else -> last_msg.text = theLastMessage
+                    else -> if(theLastMessage!!.contains("https://firebasestorage.googleapis")) {
+                            last_msg.text = "Picture"
+                    }else{
+                        last_msg.text = theLastMessage
+                    }
+
+
                 }
 
                 theLastMessage = "default"

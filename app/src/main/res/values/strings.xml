@@ -236,11 +236,11 @@
 
     <string name="title_activity_detail_menu">DetailMenuActivity</string>
 
-    <string name="about">Aplikasi Foodgram adalah aplikasi rekomendasi makanan dan minuman berdasarkan cuaca yang terdapat dikota yang dipilih.
-    Pada Aplikasi ini, juga terdapat berbagai cara dalam membuat menu makanan dan minuman, mulai dari cara memasak yang paling dasar hingga hidangan-hidangan utama baik dalam maupun luar negeri.
-    Aplikasi Foodgram juga menyediakan fitur maps yang digunakan untuk mengetahui restoran terdekat berdasarkan keyword makanan atau minuman,melihat video tutorial dari youtube bagaimana cara
-    membuat makanan dan minuman tersebut, serta dapat mengirim pesan antar pengguna foodgram. Dengan Aplikasi Foodgram, user dapat mengupload foto dan story mengenai hasil makanan dan minuman yang sudah dibuatnya.
-    ThankYou
+    <string name="about">Aplikasi Foodgram adalah aplikasi rekomendasi makanan dan minuman berdasarkan cuaca pada kota tertentu (sesuai pilihan user).
+    \n Pada Aplikasi ini, juga terdapat berbagai cara membuat menu makanan dan minuman, mulai dari cara memasak yang paling dasar hingga hidangan-hidangan utama baik dalam maupun luar negeri. \n
+    Aplikasi Foodgram menyediakan fitur maps yang digunakan untuk mengetahui restoran terdekat berdasarkan makanan atau minuman yang dipilih oleh user,melihat video tutorial dan ulasan yang diambil dari youtube tentang bagaimana cara
+    membuat makanan dan minuman tersebut, serta dapat mengirim pesan antar pengguna foodgram. \n Dengan Aplikasi Foodgram, user dapat mengupload foto dan story mengenai hasil makanan dan minuman yang sudah dibuatnya. \n
+
     </string>
     <string name="action_settings">Settings</string>
 
