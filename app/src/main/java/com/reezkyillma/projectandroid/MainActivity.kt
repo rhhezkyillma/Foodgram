@@ -125,6 +125,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(Intent(this@MainActivity, SettingsActivity::class.java))
             }
 
+            R.id.nav_about -> {
+                selectedfragment = AboutFragment()
+                setTitle("")
+            }
+
             R.id.nav_logout -> {
                 selectedfragment = null
                 FirebaseAuth.getInstance().signOut()

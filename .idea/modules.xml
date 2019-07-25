@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Foodgram.iml" filepath="$PROJECT_DIR$/Foodgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProjectFoodgram_Ujian.iml" filepath="$PROJECT_DIR$/ProjectFoodgram_Ujian.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
