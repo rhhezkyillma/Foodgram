@@ -42,9 +42,9 @@ class RecipeListAdapter (
 
         fun bind(recipes: Recipes, listener: OnItemClickListener) = with(itemView) {
             txtATitle.text = recipes.getTitle().toString()
-//                txtADescription.text = recipes.getDescription().toString()
             txtADate.text = recipes.getCreatedAt().toString()
-//                visitCount.text = recipes.getViewCount().toString()
+
+//            txtAuthor.text = recipes.getCreatedBy().toString()
 
             setOnClickListener {
                 listener.onItemClickArticle(recipes, it)
