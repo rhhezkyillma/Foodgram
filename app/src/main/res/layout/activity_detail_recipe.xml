@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-3dp"
                 android:textSize="20sp"
-                android:text="Recipes"
+                android:text="Artikel"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"/>
 
@@ -97,9 +97,31 @@
                         android:textColor="#696969"
                         android:text="Description"/>
 
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/txtIngredient"
+                        android:layout_below="@+id/Description"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Membuatnya"
+                        android:layout_marginLeft="23dp"
+                        android:textColor="#696969"
+                        android:layout_alignParentLeft="true" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/txtDirection"
+                        android:layout_below="@+id/txtIngredient"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Membuat"
+                        android:textColor="#696969"
+                        android:layout_marginLeft="23dp"
+                        android:layout_alignParentLeft="true" />
+
                     <TextView
                         android:id="@+id/txtViewDate"
-                        android:layout_below="@+id/Description"
+                        android:layout_below="@+id/txtDirection"
                         android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

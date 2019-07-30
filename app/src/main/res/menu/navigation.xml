@@ -12,15 +12,17 @@
         android:icon="@drawable/timeline"
         android:title="Timeline"/>
 
-    <item
-        android:id="@+id/nav_recipe"
-        android:icon="@drawable/ic_recipe"
-        android:title="Recipes"/>
 
     <item
         android:id="@+id/nav_message"
         android:icon="@drawable/ic_message"
         android:title="Message"/>
+
+    <item
+        android:id="@+id/nav_recipe"
+        android:icon="@drawable/ic_recipe"
+        android:title="Artikel"/>
+
 
     <item
         android:id="@+id/nav_add"
