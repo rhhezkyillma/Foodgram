@@ -65,6 +65,9 @@ class RecipeDetailActivity : AppCompatActivity() {
                 newDesc =newDesc.replace("<a href=\"https://www.kreasisasa.com/cookingnary/tips-masak/tips-memasak-seafood-ala-chef-profesional\" target=\"blank\">", "")
                 newDesc =newDesc.replace("<br>", "")
                 newDesc =newDesc.replace("<a href=\"https://www.kreasisasa.com/cookingnary/tips-masak/tips-memasak-seafood-ala-chef-profesional\" target=\"blank\"></a>", "")
+                newDesc =newDesc.replace("<p data-f-id=\"pbf\" ", "")
+                newDesc =newDesc.replace("style=\"text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;\">Powered by ", "")
+                newDesc =newDesc.replace("<p data-f-id=\"pbf\" style=\"text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;\">Powered by <a href=\"https://www.froala.com/wysiwyg-editor?pb=1\" title=\"Froala Editor\">Froala Editor</a>","")
                 Description.text = newDesc
 
                 val ingredient = article.getIngredient().toString()

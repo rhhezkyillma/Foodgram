@@ -2,7 +2,7 @@ package com.reezkyillma.projectandroid.API
 
 class BaseUrl {
     companion object {
-        val baseUrl = "http://192.168.43.82:8000/"
+        val baseUrl = "https://foodgram.rdlvindonesia.com/"
         val apiPath = "api/"
     }
 
